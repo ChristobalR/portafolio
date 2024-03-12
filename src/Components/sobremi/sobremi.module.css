@@ -1,0 +1,28 @@
+.container {
+    height: 30.75em;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sobremi {
+    background: rgba(0, 0, 0, 0);
+   
+ max-width: 40em;
+ height: 17em;
+ padding: 1em;
+ border-radius: 2em;
+ 
+
+}
+
+.sobremi h2 {
+color: rgb(217, 217, 217);
+text-align: center;
+}
+.sobremi p {
+    text-align: center;
+    color: rgb(217, 217, 217);
+    }

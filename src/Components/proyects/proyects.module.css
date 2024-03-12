@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    justify-items: center; 
+}
+h1{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.elemento {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+    padding: 1.25em;
+    text-align: center;
+    border-radius: 0.5em;
+    aspect-ratio: 3 / 4;
+    min-width: 6.25em;
+    min-height: 8.3331em;
+    border: 0.1em solid rgba(77, 221, 250, 0.085);
+    transition: all 0.3s ease;
+}
+
+.elemento:hover {
+    transform: scale(1.03);
+    border: 0.1em solid rgba(77, 221, 250, 0.134);
+    -webkit-box-shadow: 0px 0px 23px -27px rgba(0, 184, 240, 1);
+    -moz-box-shadow: 0px 0px 23px -27px rgba(0, 184, 240, 1);
+    box-shadow: 0px 0px 23px -27px rgba(0, 184, 240, 1);
+}
+
+.elemento img {
+    max-width: 95%;
+    height: auto;
+}
+
+/* Media query para cambiar a una columna cuando el ancho de pantalla es menor */
+@media (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+    .elemento{
+        max-width: 80%;
+
+    }
+}

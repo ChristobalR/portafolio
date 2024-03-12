@@ -1,0 +1,76 @@
+.container {
+    height: 30em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 60px;
+    flex-direction: column;
+
+   
+}
+.container h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.container h4 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.contform {
+    background-color: rgba(4, 5, 17, 0.435);
+    color: white;
+    padding: 2.125em;
+    width: 25.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    
+}
+
+.container form input, textarea {
+    background-color: #404043;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.container form input:focus, textarea:focus {
+    outline: 2px solid #999;
+}
+
+.container button {
+    align-self: center;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    background: #ffffff;
+    text-decoration: none;
+    border: solid #000000 0.1em;
+    transition: background 0.5s ease;
+    width: 6em;
+}
+
+@media (max-width: 500px) {
+ .contform{
+    width: 15em;
+ }
+}

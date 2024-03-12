@@ -1,0 +1,142 @@
+.container {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+  min-height: 100vh;
+}
+.div2{
+  height: 20em;
+  width: 20em;
+  background-color: aqua;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.contactcont {
+  height: 5em;
+  
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.linkcont {
+  
+
+  margin-top: 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.linkcont img {
+  height: 2.0em;
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+}
+.linkcont img:hover {
+    cursor: pointer;
+  }
+
+.h2d {
+  max-width: 50em;
+  text-align: center;
+  display: flex;
+}
+.container::before {
+  content: "";
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.05;
+}
+.container span {
+  color: #add8e6;
+}
+.contact {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  transition: background 0.5s ease;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 16px;
+  background: #000000;
+  text-decoration: none;
+  border: solid #ffffffae 0.01em;
+}
+.contactcont button {
+  margin: 0.5em;
+}
+.contact:hover {
+    background-color: #222222;
+    cursor: pointer;
+}
+.proyects {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 24px;
+  padding: 16px;
+  background: #ffffff;
+  text-decoration: none;
+  border: solid #000000 0.1em;
+  transition: background 0.5s ease;
+}
+.proyects:hover {
+    background: black;
+    color: white;
+    pointer-events: painted;
+    cursor: pointer;
+}
+
+.container h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.container h2 {
+  margin: 0;
+  font-size: 4em;
+  margin-bottom: 0.3em;
+}
+@media (max-width: 1000px) {
+  .container1 {
+      font-size: 12px;
+  }
+ 
+   }
+   @media (max-width: 850px) {
+    .container {
+        flex-direction: column-reverse;
+        height: 50em;
+    }
+    .div2 {
+       margin-bottom: 2em;
+    }
+   
+     }
+  
+     @media (max-width: 587px) {
+    
+     .container1{
+      max-width: 30em;
+     }
+       }
