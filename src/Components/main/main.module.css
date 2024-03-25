@@ -8,11 +8,18 @@
   min-height: 100vh;
 }
 .div2{
-  height: 20em;
-  width: 20em;
-  background-color: aqua;
+  height: 25em;
+  width: 25em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2 img{
+max-width: 100%;
 }
 .container1{
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,3 +147,13 @@
       max-width: 30em;
      }
        }
+
+       
+     @media (max-width: 550px) {
+    
+      .div2{
+       max-width: 20em;
+       max-height: 20em;
+      }
+        }
+    

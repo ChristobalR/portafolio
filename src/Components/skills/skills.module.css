@@ -12,7 +12,10 @@ h1{
     text-align: center;
     margin-bottom: 2em;
 }
-
+.contfbdiv {
+    color: white;
+    font-size: 1.6em;
+}
 .contfb {
     max-width: 50em;
     max-height: 18em;
@@ -52,10 +55,22 @@ h1{
 .contfb div {
     width: 15em;
     height: 15em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
     margin-left: 1em; /* Márgen izquierdo */
     margin-right: 1em; /* Márgen derecho */
     padding: 1em;
     background-color: black;
+}
+.contfb div p{
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0;
+}
+.contfb div span{
+    color: rgba(0, 255, 255, 0.76);
 }
 @media (max-width: 620px) {
  .contfb{

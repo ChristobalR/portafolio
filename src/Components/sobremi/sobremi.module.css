@@ -1,21 +1,18 @@
 .container {
-    height: 30.75em;
+    min-height: 30.75em;
 
-  
-  display: flex;
   flex-direction: column;
+  display: flex;
+ 
   justify-content: center;
   align-items: center;
 }
-.sobremi {
-    background: rgba(0, 0, 0, 0);
-   
- max-width: 40em;
- height: 17em;
- padding: 1em;
- border-radius: 2em;
- 
 
+.sobremi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
 }
 
 .sobremi h2 {
@@ -23,6 +20,12 @@ color: rgb(217, 217, 217);
 text-align: center;
 }
 .sobremi p {
+  background: rgba(0, 0, 0, 0.778);
+   
+  max-width: 40em;
+font-size: 1.5em;
+  padding: 1em;
+  border-radius: 2em;
     text-align: center;
     color: rgb(217, 217, 217);
     }

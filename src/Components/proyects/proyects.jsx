@@ -7,7 +7,7 @@ function Proyects() {
             <h1>PROYECTOS</h1>
             <div className={`${styles.contenedor}`}>
             <div className={styles.elemento}>
-                <img src="./fondo.jpg" alt="" />
+                <img src="fondo.jpg" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ad.</p>
             </div>
             <div className={styles.elemento}>

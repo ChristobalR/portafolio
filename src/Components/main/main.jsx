@@ -26,7 +26,9 @@ function Main1() {
         
       </div>
       </div>
-      <div  className={styles.div2}></div>
+      <div  className={styles.div2}>
+      <img src="./main/123.png" alt="" />
+      </div>
      
 
 </div>
